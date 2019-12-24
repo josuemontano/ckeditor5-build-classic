@@ -11,7 +11,7 @@ const path = require( 'path' );
 const webpack = require( 'webpack' );
 const { bundler, styles } = require( '@ckeditor/ckeditor5-dev-utils' );
 const CKEditorWebpackPlugin = require( '@ckeditor/ckeditor5-dev-webpack-plugin' );
-const UglifyJsWebpackPlugin = require( 'uglifyjs-webpack-plugin' );
+const TerserPlugin = require( 'terser-webpack-plugin' );
 
 module.exports = {
 	devtool: 'source-map',
@@ -31,14 +31,15 @@ module.exports = {
 
 	optimization: {
 		minimizer: [
-			new UglifyJsWebpackPlugin( {
+			new TerserPlugin( {
 				sourceMap: true,
-				uglifyOptions: {
+				terserOptions: {
 					output: {
 						// Preserve CKEditor 5 license comments.
 						comments: /^!/
 					}
-				}
+				},
+				extractComments: false
 			} )
 		]
 	},
@@ -48,7 +49,7 @@ module.exports = {
 			// UI language. Language codes follow the https://en.wikipedia.org/wiki/ISO_639-1 format.
 			// When changing the built-in language, remember to also change it in the editor's configuration (src/ckeditor.js).
 			language: 'en',
-			additionalLanguages: 'all'
+			additionalLanguages: []
 		} ),
 		new webpack.BannerPlugin( {
 			banner: bundler.getLicenseBanner(),
