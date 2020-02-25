@@ -33,6 +33,8 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
+import Table from '@ckeditor/ckeditor5-table/src/table';
+import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -64,6 +66,8 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	RemoveFormat,
+	Table,
+	TableToolbar,
 	Underline
 ];
 
@@ -90,6 +94,7 @@ ClassicEditor.defaultConfig = {
 			'outdent',
 			'indent',
 			'blockQuote',
+			'insertTable',
 			'codeBlock',
 			'|',
 			'removeFormat'
@@ -138,6 +143,13 @@ ClassicEditor.defaultConfig = {
 				name: 'loom',
 				url: /^(www\.)?loom\.com/
 			}
+		]
+	},
+	table: {
+		contentToolbar: [
+			'tableColumn',
+			'tableRow',
+			'mergeTableCells'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
