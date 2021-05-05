@@ -79,7 +79,6 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'htmlEmbed',
 			'fontFamily',
 			'fontSize',
 			'|',
@@ -91,6 +90,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'link',
 			'mediaEmbed',
+			'htmlEmbed',
 			'|',
 			'alignment',
 			'|',
