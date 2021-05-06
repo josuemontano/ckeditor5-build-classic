@@ -6,6 +6,7 @@
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
+import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
@@ -19,6 +20,7 @@ import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
@@ -41,6 +43,7 @@ export default class ClassicEditor extends ClassicEditorBase {}
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
+	CloudServices,
 	UploadAdapter,
 	Alignment,
 	Autoformat,
@@ -52,6 +55,7 @@ ClassicEditor.builtinPlugins = [
 	EasyImage,
 	Font,
 	Heading,
+	HtmlEmbed,
 	Image,
 	ImageCaption,
 	ImageResize,
@@ -86,6 +90,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'link',
 			'mediaEmbed',
+			'htmlEmbed',
 			'|',
 			'alignment',
 			'|',
