@@ -1,13 +1,130 @@
 Changelog
 =========
 
+All changes in the package are documented in the main repository. See: https://github.com/ckeditor/ckeditor5/blob/master/CHANGELOG.md.
+
+Changes for the past releases are available below.
+
+## [19.0.0](https://github.com/ckeditor/ckeditor5-build-classic/compare/v18.0.0...v19.0.0) (2020-04-29)
+
+We are happy to announce the release of CKEditor 5 v19.0.0.
+
+Refer to the [main changelog](https://github.com/ckeditor/ckeditor5/releases/tag/v19.0.0) to find out about all the new features, improvements and possible breaking changes.
+
+Read more in the blog post: https://ckeditor.com/blog/CKEditor-5-v19.0.0-with-table-enhancements-improved-performance-and-select-all-feature/
+
+### Dependencies
+
+New packages:
+
+* [@ckeditor/ckeditor5-select-all](https://www.npmjs.com/package/@ckeditor/ckeditor5-select-all): [v19.0.0](https://github.com/ckeditor/ckeditor5-select-all/releases/tag/v19.0.0)
+
+Major releases (contain major breaking changes):
+
+* [@ckeditor/ckeditor5-ui](https://www.npmjs.com/package/@ckeditor/ckeditor5-ui): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-ui/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-utils): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-utils/releases/tag/v19.0.0)
+
+Major releases (contain minor breaking changes):
+
+* [@ckeditor/ckeditor5-ui](https://www.npmjs.com/package/@ckeditor/ckeditor5-ui): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-ui/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-utils): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-utils/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-widget](https://www.npmjs.com/package/@ckeditor/ckeditor5-widget): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-widget/releases/tag/v19.0.0)
+
+Major releases (dependencies of those packages have breaking changes):
+
+* [@ckeditor/ckeditor-cloud-services-core](https://www.npmjs.com/package/@ckeditor/ckeditor-cloud-services-core): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor-cloud-services-core/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-adapter-ckfinder](https://www.npmjs.com/package/@ckeditor/ckeditor5-adapter-ckfinder): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-adapter-ckfinder/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-autoformat](https://www.npmjs.com/package/@ckeditor/ckeditor5-autoformat): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-autoformat/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-basic-styles](https://www.npmjs.com/package/@ckeditor/ckeditor5-basic-styles): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-basic-styles/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-block-quote](https://www.npmjs.com/package/@ckeditor/ckeditor5-block-quote): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-block-quote/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-ckfinder](https://www.npmjs.com/package/@ckeditor/ckeditor5-ckfinder): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-ckfinder/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-clipboard](https://www.npmjs.com/package/@ckeditor/ckeditor5-clipboard): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-clipboard/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-cloud-services](https://www.npmjs.com/package/@ckeditor/ckeditor5-cloud-services): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-cloud-services/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-core](https://www.npmjs.com/package/@ckeditor/ckeditor5-core): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-core/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-easy-image](https://www.npmjs.com/package/@ckeditor/ckeditor5-easy-image): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-easy-image/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-editor-classic](https://www.npmjs.com/package/@ckeditor/ckeditor5-editor-classic): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-editor-classic/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-engine](https://www.npmjs.com/package/@ckeditor/ckeditor5-engine): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-engine/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-enter](https://www.npmjs.com/package/@ckeditor/ckeditor5-enter): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-enter/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-essentials](https://www.npmjs.com/package/@ckeditor/ckeditor5-essentials): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-essentials/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-heading](https://www.npmjs.com/package/@ckeditor/ckeditor5-heading): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-heading/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-image](https://www.npmjs.com/package/@ckeditor/ckeditor5-image): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-image/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-indent](https://www.npmjs.com/package/@ckeditor/ckeditor5-indent): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-indent/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-link](https://www.npmjs.com/package/@ckeditor/ckeditor5-link): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-link/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-list](https://www.npmjs.com/package/@ckeditor/ckeditor5-list): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-list/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-media-embed](https://www.npmjs.com/package/@ckeditor/ckeditor5-media-embed): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-media-embed/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-paragraph](https://www.npmjs.com/package/@ckeditor/ckeditor5-paragraph): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-paragraph/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-paste-from-office](https://www.npmjs.com/package/@ckeditor/ckeditor5-paste-from-office): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-paste-from-office/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-table](https://www.npmjs.com/package/@ckeditor/ckeditor5-table): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-table/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-theme-lark](https://www.npmjs.com/package/@ckeditor/ckeditor5-theme-lark): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-theme-lark/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-typing](https://www.npmjs.com/package/@ckeditor/ckeditor5-typing): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-typing/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-undo](https://www.npmjs.com/package/@ckeditor/ckeditor5-undo): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-undo/releases/tag/v19.0.0)
+* [@ckeditor/ckeditor5-upload](https://www.npmjs.com/package/@ckeditor/ckeditor5-upload): v18.0.0 => [v19.0.0](https://github.com/ckeditor/ckeditor5-upload/releases/tag/v19.0.0)
+
+
+## [18.0.0](https://github.com/ckeditor/ckeditor5-build-classic/compare/v17.0.0...v18.0.0) (2020-03-19)
+
+We are happy to announce the release of CKEditor 5 v18.0.0.
+
+Refer to the [main changelog](https://github.com/ckeditor/ckeditor5/releases/tag/v18.0.0) to find out about all the new features, improvements and possible breaking changes.
+
+Read more in the blog post: https://ckeditor.com/blog/CKEditor-5-v18.0.0-with-custom-table-selection-and-pasting-nested-lists-from-Word/
+
+### Features
+
+Besides new features introduced by the dependencies, this version also introduces the following features:
+
+* Added the [Automatic text transformation](https://ckeditor.com/docs/ckeditor5/latest/features/text-transformation.html) feature to the build. See [ckeditor/ckeditor5#6304](https://github.com/ckeditor/ckeditor5/issues/6304). ([af021aa](https://github.com/ckeditor/ckeditor5-build-classic/commit/af021aa))
+
+### Dependencies
+
+Major releases (contain major breaking changes):
+
+* [@ckeditor/ckeditor5-engine](https://www.npmjs.com/package/@ckeditor/ckeditor5-engine): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-engine/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-ui](https://www.npmjs.com/package/@ckeditor/ckeditor5-ui): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-ui/releases/tag/v18.0.0)
+
+Major releases (contain minor breaking changes):
+
+* [@ckeditor/ckeditor5-engine](https://www.npmjs.com/package/@ckeditor/ckeditor5-engine): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-engine/releases/tag/v18.0.0)
+
+Major releases (dependencies of those packages have breaking changes):
+
+* [@ckeditor/ckeditor-cloud-services-core](https://www.npmjs.com/package/@ckeditor/ckeditor-cloud-services-core): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor-cloud-services-core/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-adapter-ckfinder](https://www.npmjs.com/package/@ckeditor/ckeditor5-adapter-ckfinder): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-adapter-ckfinder/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-autoformat](https://www.npmjs.com/package/@ckeditor/ckeditor5-autoformat): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-autoformat/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-basic-styles](https://www.npmjs.com/package/@ckeditor/ckeditor5-basic-styles): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-basic-styles/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-block-quote](https://www.npmjs.com/package/@ckeditor/ckeditor5-block-quote): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-block-quote/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-ckfinder](https://www.npmjs.com/package/@ckeditor/ckeditor5-ckfinder): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-ckfinder/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-clipboard](https://www.npmjs.com/package/@ckeditor/ckeditor5-clipboard): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-clipboard/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-cloud-services](https://www.npmjs.com/package/@ckeditor/ckeditor5-cloud-services): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-cloud-services/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-core](https://www.npmjs.com/package/@ckeditor/ckeditor5-core): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-core/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-easy-image](https://www.npmjs.com/package/@ckeditor/ckeditor5-easy-image): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-easy-image/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-editor-classic](https://www.npmjs.com/package/@ckeditor/ckeditor5-editor-classic): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-editor-classic/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-enter](https://www.npmjs.com/package/@ckeditor/ckeditor5-enter): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-enter/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-essentials](https://www.npmjs.com/package/@ckeditor/ckeditor5-essentials): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-essentials/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-heading](https://www.npmjs.com/package/@ckeditor/ckeditor5-heading): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-heading/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-image](https://www.npmjs.com/package/@ckeditor/ckeditor5-image): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-image/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-indent](https://www.npmjs.com/package/@ckeditor/ckeditor5-indent): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-indent/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-link](https://www.npmjs.com/package/@ckeditor/ckeditor5-link): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-link/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-list](https://www.npmjs.com/package/@ckeditor/ckeditor5-list): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-list/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-media-embed](https://www.npmjs.com/package/@ckeditor/ckeditor5-media-embed): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-media-embed/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-paragraph](https://www.npmjs.com/package/@ckeditor/ckeditor5-paragraph): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-paragraph/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-paste-from-office](https://www.npmjs.com/package/@ckeditor/ckeditor5-paste-from-office): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-paste-from-office/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-table](https://www.npmjs.com/package/@ckeditor/ckeditor5-table): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-table/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-theme-lark](https://www.npmjs.com/package/@ckeditor/ckeditor5-theme-lark): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-theme-lark/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-typing](https://www.npmjs.com/package/@ckeditor/ckeditor5-typing): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-typing/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-undo](https://www.npmjs.com/package/@ckeditor/ckeditor5-undo): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-undo/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-upload](https://www.npmjs.com/package/@ckeditor/ckeditor5-upload): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-upload/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-utils): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-utils/releases/tag/v18.0.0)
+* [@ckeditor/ckeditor5-widget](https://www.npmjs.com/package/@ckeditor/ckeditor5-widget): v17.0.0 => [v18.0.0](https://github.com/ckeditor/ckeditor5-widget/releases/tag/v18.0.0)
+
+
 ## [17.0.0](https://github.com/ckeditor/ckeditor5-build-classic/compare/v16.0.0...v17.0.0) (2020-02-19)
 
 We are happy to announce the release of CKEditor 5 v17.0.0.
 
 Refer to the [main changelog](https://github.com/ckeditor/ckeditor5/releases/tag/v17.0.0) to find out about all the new features, improvements and possible breaking changes.
 
-Blog post coming soon...
+https://ckeditor.com/blog/CKEditor-5-v17.0.0-with-table-styles-special-characters-and-performance-improvements/
 
 ### Dependencies
 
@@ -111,7 +228,7 @@ We are happy to announce the release of CKEditor 5 v15.0.0. This editor version 
 
 Regarding the build itself, we added the [list indentation](https://ckeditor.com/docs/ckeditor5/latest/features/indent.html#indenting-lists) button to the build's default setup. See [ckeditor/ckeditor5#1844](https://github.com/ckeditor/ckeditor5/issues/1844). ([5dc1e87](https://github.com/ckeditor/ckeditor5-build-classic/commit/5dc1e87))
 
-From other news, we changed the versioning policy. Now, all packages will have the same major version, hence, we needed to release this one as v15.0.0 (we skipped versions 13.0.0 and 14.0.0). Read more about the [new versioning policy](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/versioning-policy.html).
+From other news, we changed the versioning policy. Now, all packages will have the same major version, hence, we needed to release this one as v15.0.0 (we skipped versions 13.0.0 and 14.0.0). Read more about the [new versioning policy](https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html).
 
 Read more in the blog post: https://ckeditor.com/blog/CKEditor-5-v15.0.0-with-horizontal-line-page-break-responsive-toolbar-and-SVG-upload-support/
 
@@ -156,7 +273,7 @@ Major releases (dependencies of those packages have breaking changes):
 
 ## [12.4.0](https://github.com/ckeditor/ckeditor5-build-classic/compare/v12.3.1...v12.4.0) (2019-08-26)
 
-This release brings a huge set of new features: [image resizing](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/image.html#resizing-images), [to-do lists](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/todo-lists.html), [support for RTL languages](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/ui-language.html), [simple upload adapter](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/image-upload/simple-upload-adapter.html), [support for pasting from Google Docs](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/paste-from-office/paste-from-google-docs.html), [mathematic formulas](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/mathtype.html), and [spelling and grammar checking](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/spell-checker.html). In addition to that, as always, it contains many improvements and bug fixes.
+This release brings a huge set of new features: [image resizing](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/image.html#resizing-images), [to-do lists](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/todo-lists.html), [support for RTL languages](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/ui-language.html), [simple upload adapter](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/images/image-upload/simple-upload-adapter.html), [support for pasting from Google Docs](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/paste-from-office/paste-from-google-docs.html), [mathematic formulas](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/mathtype.html), and [spelling and grammar checking](https://ckeditor.com/ckeditor5/build/docs/ckeditor5/latest/features/spell-checker.html). In addition to that, as always, it contains many improvements and bug fixes.
 
 ### Dependencies
 
@@ -422,7 +539,7 @@ Major releases (contain breaking changes):
 
 We are happy to report the release of CKEditor 5 v11.2.0. This editor version brings the long-awaited [support for paste from Office](https://ckeditor.com/docs/ckeditor5/latest/features/paste-from-word.html) (e.g. from Microsoft Word), [integration with CKFinder file manager](https://ckeditor.com/docs/ckeditor5/latest/features/ckfinder.html), improved [image upload documentation](https://ckeditor.com/docs/ckeditor5/latest/features/image-upload.html), improved [editor UI on mobile devices](https://github.com/ckeditor/ckeditor5/issues/416#issuecomment-430246472), as well as many smaller features and improvements.
 
-Blog post is comming soon...
+Blog post is coming soon...
 
 ### Dependencies
 
@@ -532,7 +649,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 
 This is a major releases that introduces many smaller features, dozens of bug fixes and a couple of infrastructure changes (an upgrade to `webpack@4`, simplified structure of the build repository). Additionally, the `ClassicEditor#element` property was renamed to `ClassicEditor#sourceElement` and the `ClassicEditor#updateElement()` method was renamed to `ClassicEditor#updateSourceElement()`.
 
-If you maintain a [custom build of CKEditor 5](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html) or [integrate CKEditor 5 from source](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/advanced-setup.html#scenario-2-building-from-source), we recommend reading the [migration guide](https://github.com/ckeditor/ckeditor5/issues/1136).
+If you maintain a [custom build of CKEditor 5](https://ckeditor.com/docs/ckeditor5/latest/installation/advanced/alternative-setups/custom-builds.html) or [integrate CKEditor 5 from source](https://ckeditor.com/docs/ckeditor5/latest/installation/advanced/alternative-setups/integrating-from-source.html), we recommend reading the [migration guide](https://github.com/ckeditor/ckeditor5/issues/1136).
 
 Read more in the blog post: https://ckeditor.com/blog/CKEditor-5-v11.0.0-released/
 
