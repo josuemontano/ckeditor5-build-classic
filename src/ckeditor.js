@@ -5,6 +5,7 @@
 
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+import './custom.css'
 
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
@@ -113,7 +114,6 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'fontColor',
 			'fontBackgroundColor'
-			
 		]
 	},
 	fontSize: {
