@@ -13,6 +13,7 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
@@ -37,6 +38,7 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import SourceEditing from "@ckeditor/ckeditor5-source-editing/src/sourceediting";
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -70,15 +72,19 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	RemoveFormat,
+	SourceEditing,
+	Strikethrough,
 	Table,
 	TableToolbar,
-	Underline
+	Underline,
 ];
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
+			'sourceEditing',
+			'|',
 			'heading',
 			'fontFamily',
 			'fontSize',
@@ -86,24 +92,28 @@ ClassicEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'underline',
-			'fontColor',
-			'fontBackgroundColor',
+			'strikethrough',
 			'|',
-			'link',
-			'mediaEmbed',
-			'htmlEmbed',
-			'|',
-			'alignment',
+			'removeFormat',
 			'|',
 			'numberedList',
 			'bulletedList',
 			'outdent',
 			'indent',
-			'blockQuote',
-			'insertTable',
-			'codeBlock',
 			'|',
-			'removeFormat'
+			'blockQuote',
+			'codeBlock',
+			'insertTable',
+			'|',
+			'alignment',
+			'|',
+			'link',
+			'mediaEmbed',
+			'htmlEmbed',
+			'|',
+			'fontColor',
+			'fontBackgroundColor'
+			
 		]
 	},
 	fontSize: {
