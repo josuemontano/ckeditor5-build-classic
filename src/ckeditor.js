@@ -15,10 +15,7 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
-import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
-import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
@@ -47,16 +44,13 @@ export default class ClassicEditor extends ClassicEditorBase {}
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
-	CloudServices,
 	UploadAdapter,
 	Alignment,
 	Autoformat,
 	Bold,
 	Italic,
 	BlockQuote,
-	CKFinder,
 	CodeBlock,
-	EasyImage,
 	Font,
 	GeneralHtmlSupport,
 	Heading,

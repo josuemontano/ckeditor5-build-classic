@@ -329,13 +329,6 @@
   dependencies:
     ckeditor5 "^36.0.1"
 
-"@ckeditor/ckeditor5-ckfinder@^36.0.1":
-  version "36.0.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ckfinder/-/ckeditor5-ckfinder-36.0.1.tgz#06814040b614a2c56c5b1aec9a63ea1d2d947eed"
-  integrity sha512-2qdUHEDmBdyFMeiNSWgE/f1p3Tt9b1uuOsvAt+pXJHET9zT8TlpipbhzN3e9+Vqbiy7tv1ofK/gGGHLGoI25tg==
-  dependencies:
-    ckeditor5 "^36.0.1"
-
 "@ckeditor/ckeditor5-clipboard@^36.0.1":
   version "36.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-clipboard/-/ckeditor5-clipboard-36.0.1.tgz#96e150756c5b8e2979bdbf9a23987ac7cccb3829"
@@ -346,13 +339,6 @@
     "@ckeditor/ckeditor5-utils" "^36.0.1"
     "@ckeditor/ckeditor5-widget" "^36.0.1"
     lodash-es "^4.17.11"
-
-"@ckeditor/ckeditor5-cloud-services@^36.0.1":
-  version "36.0.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-cloud-services/-/ckeditor5-cloud-services-36.0.1.tgz#b9861e9305edf978cdc2ebee51058c0a229ae07d"
-  integrity sha512-o+Xp3mAWISx+LCHeV8wYN1v7ZA0XUtIOXPb6N+6lJcS9fDSdc/B4+0KnpHoDZQThgvs9UoNb6ty2f3H5Den/Bg==
-  dependencies:
-    ckeditor5 "^36.0.1"
 
 "@ckeditor/ckeditor5-code-block@^36.0.1":
   version "36.0.1"
@@ -407,13 +393,6 @@
     terser-webpack-plugin "^4.2.3"
     through2 "^3.0.1"
     ts-loader "^9.3.0"
-
-"@ckeditor/ckeditor5-easy-image@^36.0.1":
-  version "36.0.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-easy-image/-/ckeditor5-easy-image-36.0.1.tgz#c7d3a150a2061926aad1c367896691d5b73d83fd"
-  integrity sha512-t74s840xNPaWibgI1YcC/lHcigCY4zUyXzpXhepWe9qw4zfg58H2wK6a0AwBN+yy8mXcotDUmjXkOXgnNkJp0Q==
-  dependencies:
-    ckeditor5 "^36.0.1"
 
 "@ckeditor/ckeditor5-editor-classic@^36.0.1":
   version "36.0.1"
