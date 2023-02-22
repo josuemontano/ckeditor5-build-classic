@@ -115,60 +115,37 @@ ClassicEditor.defaultConfig = {
 			'htmlEmbed',
 			'|',
 			'fontColor',
-			'fontBackgroundColor'
-		]
+			'fontBackgroundColor',
+		],
 	},
 	fontSize: {
-		options: [
-			8,
-			9,
-			10,
-			11,
-			12,
-			'default',
-			14,
-			18,
-			24,
-			30,
-			36,
-			48,
-			60,
-			72
-		]
+		options: [8, 9, 10, 11, 12, 'default', 14, 18, 24, 30, 36, 48, 60, 72],
 	},
 	image: {
-		toolbar: [
-			'imageStyle:alignLeft',
-			'imageStyle:full',
-			'imageStyle:alignRight'
-		],
+		toolbar: ['imageStyle:alignLeft', 'imageStyle:full', 'imageStyle:alignRight'],
 		styles: [
 			// This option is equal to a situation where no style is applied.
 			'full',
 			// This represents an image aligned to the left.
 			'alignLeft',
 			// This represents an image aligned to the right.
-			'alignRight'
-		]
+			'alignRight',
+		],
 	},
 	indentBlock: {
 		offset: 1,
-		unit: 'em'
+		unit: 'em',
 	},
 	mediaEmbed: {
 		extraProviders: [
 			{
 				name: 'loom',
-				url: /^(www\.)?loom\.com/
-			}
-		]
+				url: /^(www\.)?loom\.com/,
+			},
+		],
 	},
 	table: {
-		contentToolbar: [
-			'tableColumn',
-			'tableRow',
-			'mergeTableCells'
-		]
+		contentToolbar: ['tableColumn', 'tableRow', 'mergeTableCells'],
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en',
@@ -181,8 +158,8 @@ ClassicEditor.defaultConfig = {
 				attributes: true,
 			},
 			{
-				name: "img",
-				attributes: "data-cid",
+				name: 'img',
+				attributes: 'data-cid',
 			},
 		],
 		disallow: [
