@@ -120,13 +120,11 @@ ClassicEditor.defaultConfig = {
 		toolbar: [
 			{
 				name: 'imageStyle:inlineImages',
-				title: 'Inline image',
 				defaultItem: 'imageStyle:inline',
 				items: ['imageStyle:inline', 'imageStyle:alignLeft', 'imageStyle:alignRight'],
 			},
 			{
 				name: 'imageStyle:blockImages',
-				title: 'Block image',
 				defaultItem: 'imageStyle:block',
 				items: ['imageStyle:alignBlockLeft', 'imageStyle:block', 'imageStyle:alignBlockRight'],
 			},
