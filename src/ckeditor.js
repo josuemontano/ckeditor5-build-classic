@@ -118,16 +118,22 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		toolbar: [
-			'imageStyle:inline',
-			'imageStyle:block',
-			'imageStyle:side',
+			{
+				name: 'imageStyle:inlineImages',
+				title: 'Inline image',
+				defaultItem: 'imageStyle:inline',
+				items: ['imageStyle:inline', 'imageStyle:alignLeft', 'imageStyle:alignRight'],
+			},
+			{
+				name: 'imageStyle:blockImages',
+				title: 'Block image',
+				defaultItem: 'imageStyle:block',
+				items: ['imageStyle:alignBlockLeft', 'imageStyle:block', 'imageStyle:alignBlockRight'],
+			},
 			'|',
 			'toggleImageCaption',
 			'imageTextAlternative',
 		],
-		styles: {
-			options: ['inline', 'block', 'side'],
-		},
 	},
 	indentBlock: {
 		offset: 1,
