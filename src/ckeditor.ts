@@ -80,8 +80,6 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'sourceEditing',
-			'|',
 			'heading',
 			'fontFamily',
 			'fontSize',
